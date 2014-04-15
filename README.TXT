@@ -26,3 +26,6 @@ NOTICE:
 	This script and the extracted music files it creates are intended for personal use only.
 	Please don't share/distribute the music extracted with this script. Please respect the copyrights of the music.
 	You are solely responsible for your actions.
+
+THANKS:
+	Thanks to Oricul on the Saints Row Mods website (https://www.saintsrowmods.com/forum/members/0ricul.62112/) for the original guide (https://www.saintsrowmods.com/forum/threads/extracting-and-converting-sr4s-soundtrack.3755/) on how to do this. It was that guide that inspired me to do this.
