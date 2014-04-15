@@ -4,6 +4,14 @@ setlocal enabledelayedexpansion
 :: Lets make for sure we are in the script's directory.
 pushd "%~dp0"
 
+:: Make sure the deps.txt file exists.
+if not exist "deps.txt" (
+	echo It appears the deps.txt file is missing! It should be located right next to this script. if you didn't download it, go and download that file too.
+	echo Press any key to exit...
+	pause>nul
+	exit
+)
+
 :: Check to make sure the tools folder exists.
 if not exist ".\tools\" (
 	echo Please extract all the archives ^(zip,rar,7z^) files to a tools directory next to this script first. And please copy the "revorb.exe" file to the tools directory as well.
