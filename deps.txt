@@ -1,0 +1,7 @@
+; Here are the files needed by the script. If there are more dependencies in the future, only one file from it's directory is needed to be listed here.
+; The script looks for the files listed in here and adds their path to the PATH variable.
+
+revorb.exe
+bnk_pc_extractor.exe
+ww2ogg.exe
+ThomasJepp.SaintsRow.ExtractPackfile.exe
